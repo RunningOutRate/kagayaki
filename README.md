@@ -9,3 +9,6 @@
 ・LambertDiffuse  
 ・DisneyBRDF（不安定）  
 ・SVGF（不安定）  
+・objのロード(tinyobjloader)  
+・pngでのレンダリング結果保存(stb)  
+・glTFのロードには現在対応しておりません

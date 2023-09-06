@@ -2,8 +2,8 @@
 #define CUDA_MYPT_IO_LOAD_IMAGES_CUH
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "external_lib/stb/stb_image.h"
-#include "global_values.cuh"
+#include "../external_lib/stb/stb_image.h"
+#include "../global_values.cuh"
 
 //画像のロード
 __host__ void load_image(const std::string& filename, float* &pixels, int &width, int &height, int &bpp) {

@@ -3,7 +3,7 @@
 
 #include "struct_Camera.cuh"
 #include "ConstructBVH.cuh"
-#include "IO_load_WavefrontObj.cuh"
+#include "FileIO/IO_load_WavefrontObj.cuh"
 #include "NextEventEstimation.cuh"
 
 // カメラの設定 (TODO: 直書きではなくてファイルから読み込みが出来るようにする)

@@ -2,7 +2,7 @@
 #define CUDA_MYPT_IO_SAVE_PNG_CUH
 
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "external_lib/stb/stb_image_write.h"
+#include "../external_lib/stb/stb_image_write.h"
 
 __host__ void ClampImageBuffer(Vec* Buffer_RenderedImage) {
     for(int i = 0; i < image_sizeX*image_sizeY; i++) {

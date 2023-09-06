@@ -2,9 +2,9 @@
 #define CUDA_MYPT_IO_LOAD_WAVEFRONTOBJ_CUH
 
 #define TINYOBJLOADER_IMPLEMENTATION
-#include "external_lib/tinyobjloader/tiny_obj_loader.h"
-#include "scene.cuh"
-#include "struct_Material.cuh"
+#include "../external_lib/tinyobjloader/tiny_obj_loader.h"
+#include "../scene.cuh"
+#include "../struct_Material.cuh"
 #include "IO_load_images.cuh"
 
 void load_object() {

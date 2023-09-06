@@ -8,7 +8,7 @@
 #include "struct_Material.cuh"
 #include "struct_SVGFBuffers.cuh"
 #include "host_to_device.cuh"
-#include "IO_save_png.cuh"
+#include "FileIO/IO_save_png.cuh"
 #include "SVGF.cuh"
 
 #define gpuErrchk(ans) { gpuAssert((ans), __FILE__, __LINE__); }

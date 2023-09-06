@@ -1,2 +1,1 @@
-external_lib/stb/* linguist-documentation
-external_lib/tinyobjloader/* linguist-documentation
+external_lib/** linguist-documentation
